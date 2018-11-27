@@ -14,7 +14,7 @@ aside, main{
 }
 
 aside{
-	background-color: #FDFF8C;
+	background-color: #F8F7EE;
 	width: 20%;
 	float: left;
 }
@@ -31,20 +31,33 @@ main{
 }
 
 #home-page{
-	background-color: skyblue;
+	background-image: url("../images/bg1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .company-logo{
 	width: 80%;
 	margin: 20px auto;
-	background-color: grey;
+	background-color: #F8F7EE;
 	height: 100px;
+}
+
+.company-logo > img{
+	width: 100%;
+	height: 100%;
 }
 
 ul{
 	background-color: #80B9F5;
 	margin: 5px auto;
 	width: 80%;
+}
+
+ul > a{
+	margin: 0 auto;
+	display: inline-block;	
+	width: 100%;
 }
 
 .white-border-box{
@@ -54,12 +67,12 @@ ul{
 	top: 40%;
 	margin: 0 auto;
 	transform: translate(0, 50%);
-
 }
 
 .home-header, .home-description{
 	text-align: center;
 }
+
 .home-header{
 	margin-top: 10px
 }
@@ -70,27 +83,40 @@ ul{
 
 .nav-item{
 	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	width: 100%;
 }
 
 #about-page{
-	background-color: #9B1406;
+	background-image: url("../images/bg2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+
 .about-paragraph{
 	text-align: left;
 }
+
 .about-header{
 	margin-top: 20px;
 }
+
 .about-header, .about-paragraph{
 	margin-left: 10px;
 }
+
 #services-page{
-	background-color: blue;
+	background-image: url("../images/bg3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+
 .services-header{
 	margin-top: 10px;
 	margin-left: 10px;
 }
+
 .services-list{
 	width: 90%;
 }
@@ -124,26 +150,33 @@ ul{
 .services-thumbnail-description{
 	overflow: hidden;
 }
+
 .services-thumbnail{
 	float: left;
 }
 
 #projects-page{
-	background-color: pink;
+	background-image: url("../images/bg4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-/*.projects-header{
-	margin-top: 10px;
-	margin-left: 10px;
-}
-*/
 .projects-header, .project-paragraph{
 	margin-left: 10px;
 }
 
 #gallery-page{
-	background-color: yellow;
+	background-image: url("../images/bg5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+
 .gallery-header, .gallery-paragraph{
 	margin-leftt: 10px;
+}
+#contact-page{
+	background-image: url("../images/workspace.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #E05915;
 }
