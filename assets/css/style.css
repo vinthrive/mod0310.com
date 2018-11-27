@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 900px;
+	height: 700px;
+}
+
+aside, main{
+	height: 100%;
+}
+
+aside{
+	background-color: #FDFF8C;
+	width: 20%;
+	float: left;
+}
+
+main{
+	width: 80%;
+	float: right;
+	overflow: hidden;
+}
+
+.section-box{
+	height: 100%;
+	margin-bottom: 0;
+}
+
+#home-page{
+	background-color: skyblue;
+}
+
+.company-logo{
+	width: 80%;
+	margin: 20px auto;
+	background-color: grey;
+	height: 100px;
+}
+
+ul{
+	background-color: #80B9F5;
+	margin: 5px auto;
+	width: 80%;
+}
+
+.white-border-box{
+	border: 1px solid white;
+	width: 300px;
+	position: relative;
+	top: 40%;
+	margin: 0 auto;
+	transform: translate(0, 50%);
+
+}
+
+.home-header, .home-description{
+	text-align: center;
+}
+.home-header{
+	margin-top: 10px
+}
+
+.home-description{
+	margin-bottom: 10px;
+}
+
+.nav-item{
+	text-align: center;
+}
+
+#about-page{
+	background-color: #9B1406;
+}
+.about-paragraph{
+	text-align: left;
+}
+.about-header{
+	margin-top: 20px;
+}
+.about-header, .about-paragraph{
+	margin-left: 10px;
+}
+#services-page{
+	background-color: blue;
+}
+.services-header{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.services-list{
+	width: 90%;
+}
+
+.services-box{
+	border: solid black;
+	width: 30%;
+	height: 100px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-left: 20px;
+	float:left;
+}
+
+.clear:after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+.services-thumbnail{
+	width: 50px;
+	height: 50px;
+	border: solid black;
+}
+
+.services-thumbnail-header{
+
+}
+
+.services-thumbnail-description{
+	overflow: hidden;
+}
+.services-thumbnail{
+	float: left;
+}
+
+#projects-page{
+	background-color: pink;
+}
+
+/*.projects-header{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+*/
+.projects-header, .project-paragraph{
+	margin-left: 10px;
+}
+
+#gallery-page{
+	background-color: yellow;
+}
+.gallery-header, .gallery-paragraph{
+	margin-leftt: 10px;
+}
