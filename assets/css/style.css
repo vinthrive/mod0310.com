@@ -6,7 +6,7 @@
 
 .container{
 	width: 900px;
-	height: 700px;
+	height: 600px;
 }
 
 aside, main{
@@ -64,13 +64,14 @@ ul > a{
 	border: 1px solid white;
 	width: 300px;
 	position: relative;
-	top: 40%;
+	top: 50%;
 	margin: 0 auto;
-	transform: translate(0, 50%);
+	transform: translate(0, -50%);
 }
 
 .home-header, .home-description{
 	text-align: center;
+
 }
 
 .home-header{
@@ -94,16 +95,14 @@ ul > a{
 	background-repeat: no-repeat;
 }
 
-.about-paragraph{
+.section-header{
+
+}
+
+.section-header, .section-paragraph{
+	margin: 30px 30px 0 30px;
 	text-align: left;
-}
-
-.about-header{
-	margin-top: 20px;
-}
-
-.about-header, .about-paragraph{
-	margin-left: 10px;
+	display: inline-block;
 }
 
 #services-page{
@@ -112,23 +111,22 @@ ul > a{
 	background-repeat: no-repeat;
 }
 
-.services-header{
-	margin-top: 10px;
-	margin-left: 10px;
-}
-
 .services-list{
-	width: 90%;
+	width: 100%;
+	height: 90%;
 }
 
 .services-box{
-	border: solid black;
-	width: 30%;
-	height: 100px;
+	border: 1px solid black;
+	width: 31.5%;
+	height: 90%;
 	overflow: hidden;
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 10px;
+	padding: 5px;
 	float:left;
+	border-radius: 5px;
+	position: relative;
 }
 
 .clear:after{
@@ -140,43 +138,86 @@ ul > a{
 .services-thumbnail{
 	width: 50px;
 	height: 50px;
-	border: solid black;
-}
-
-.services-thumbnail-header{
-
-}
-
-.services-thumbnail-description{
-	overflow: hidden;
-}
-
-.services-thumbnail{
+	/*border: solid black;*/
 	float: left;
 }
 
+.services-thumbnail > img{
+	width: 100%;
+	height: 100%;
+}
+
+.services-thumbnail-description{
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.btn-learn{
+	position: absolute;
+	top: 90%;
+	left: 65%;
+	background-color: #E3A90E;
+	border-radius: 5px;
+	padding: 2px;
+	
+}
 #projects-page{
 	background-image: url("../images/bg4.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-.projects-header, .project-paragraph{
+/*.projects-header, .project-paragraph{
 	margin-left: 10px;
 }
-
+*/
 #gallery-page{
 	background-image: url("../images/bg5.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-.gallery-header, .gallery-paragraph{
-	margin-leftt: 10px;
+.services-thumbnail-header,.services-thumbnail-description,.gallery-header, .gallery-paragraph{
+	color: white;
 }
 #contact-page{
 	background-image: url("../images/workspace.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #E05915;
+}
+
+.item-list{
+	width: 80%;
+	height: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.contact-item{
+	width: 30%;
+	height: 80%;
+	float: left;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	position: relative;
+	top: 20%;
+}
+
+.contact-item > img{
+	width: 90%;
+	height: 30%;
+	margin: 10px;
+	border-radius: 100%;
+	
+}
+.contact-name, .contact-description{
+	text-align: center;
+	color: #002266;
+
+}
+
+.home-header{
+	font-size: xx-large;
+	color: #002266;
 }
