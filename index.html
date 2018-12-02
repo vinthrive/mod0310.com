@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	<div class="container">
-		<aside>
+		<aside class="col-lg-3 col-md-3 col-sm-3">
 			<div class="company-logo">
 				<img src="assets/images/company.png">
 			</div>
@@ -19,7 +21,8 @@
 				<ul><a href="#contact-page"><p class="nav-item">Contact</p></a></ul>
 			</nav>
 		</aside>
-		<main>
+		<div class="hidden-division col-lg-3 col-md-3 col-sm-3"><h1>HIDDEN</h1></div>
+		<main class="col-lg-9 col-md-9 col-sm-9">
 			<section class="section-box" id="home-page">
 				<div class="white-border-box">
 					<h1 class="home-header">Thrive Solution</h1>
@@ -44,7 +47,9 @@
 							</div>
 							<h4 class="services-thumbnail-header">Software</h4>
 						</div>
-						<p class="services-thumbnail-description">Cutting edge technology and building supplier industry expertise: ours is the only solution developed for the industry, by the industry.</p>
+						<div class="thumbnail-desc-cont">
+							<p class="services-thumbnail-description">Cutting edge technology and building supplier industry expertise: ours is the only solution developed for the industry, by the industry.</p>
+						</div>
 						<button class="btn-learn">Learn More</button>
 					</div>
 					<div class="services-box clear">
@@ -55,7 +60,9 @@
 
 							<h4 class="services-thumbnail-header">Business Improvement</h4>
 						</div>
-						<p class="services-thumbnail-description">Our industry specialist will roll up their sleeves and get their hands dirty in your business. Find out how they can make a difference to your bottom line.</p>
+						<div class="thumbnail-desc-cont">
+							<p class="services-thumbnail-description">Our industry specialist will roll up their sleeves and get their hands dirty in your business. Find out how they can make a difference to your bottom line.</p>
+						</div>
 						<button class="btn-learn">Learn More</button>
 					</div>
 					<div class="services-box clear">
@@ -65,7 +72,9 @@
 							</div>
 							<h4 class="services-thumbnail-header">Business Outsourcing</h4>
 						</div>
-						<p class="services-thumbnail-description">Short on time? Under staffed? We can help you during the tough times and make light work of your headaches.</p>
+						<div class="thumbnail-desc-cont">
+							<p class="services-thumbnail-description">Short on time? Under staffed? We can help you during the tough times and make light work of your headaches.</p>
+						</div>	
 						<button class="btn-learn">Learn More</button>
 					</div>
 				</div>
@@ -96,10 +105,10 @@
 			</section>
 			<section class="section-box" id="contact-page">
 				<div>
-					<form action="/technologies/#wpcf7-f45-p10-o2" method="post" class="wpcf7-form" novalidate="novalidate">
-						<p id="name-label">Name (required)<br><input type="text" name="your-name" value=""> </p>
-						<p>Email (required)<br><input type="email" name="your-email" value="" size="40"> </p>
-						<p>Message<br> <textarea name="your-message" cols="40" rows="10"></textarea></span> </p>
+					<form>
+						<p id="name-label">Name (required)<br><input type="text" name="your-name" value="" class="inputs"> </p>
+						<p>Email (required)<br><input type="email" name="your-email" value="" size="40" class="inputs"> </p>
+						<p>Message<br> <textarea name="your-message" cols="40" rows="10" class="inputs"></textarea> </p>
 						<input type="submit" value="Send" id="submit">
 					</form>	
 				</div>
