@@ -302,6 +302,42 @@ ul > a{
 		font-size: smaller;
 	}
 
+	aside{
+		position: relative;
+	}
+	nav{
+		display: inline-block;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.company-logo{
+		display: inline-block;
+		margin: 5px 0;
+	}
+
+	ul{
+		display: inline-block;
+		margin: 0;
+		width: 15%;
+	}
+
+	ul > a{
+		margin: 0 0;
+		display: inline-block;	
+		width: 100%;
+	}
+	.nav-item{
+		padding: 5px 0;
+		margin: 0;
+		width: 100%;
+		border: 1px solid darkblue;
+		font-size: smaller;
+		box-sizing: content-box;
+
+	}
+
 	.section-box{
 		max-height: 450px;
 	}
