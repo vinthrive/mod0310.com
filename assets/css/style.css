@@ -76,7 +76,6 @@ main{
 }
 
 ul{
-	background-color: #80B9F5;
 	margin: 5px auto;
 	width: 80%;
 	max-width: 200px;
@@ -94,6 +93,7 @@ ul > a{
 	padding: 10px;
 	width: 100%;
 	border: 1px solid darkblue;
+	background-color: #80B9F5;
 }
 
 .white-border-box{
@@ -302,19 +302,19 @@ ul > a{
 		font-size: smaller;
 	}
 
-	aside{
-		position: relative;
-	}
 	nav{
 		display: inline-block;
 		position: absolute;
 		top: 50%;
-		transform: translateY(-50%);
+		transform: translate(2%, -200%);
+		margin: 0 auto;
 	}
 
 	.company-logo{
 		display: inline-block;
 		margin: 5px 0;
+		top: 50%;
+		transform: translate(2%, 25%);
 	}
 
 	ul{
@@ -328,14 +328,19 @@ ul > a{
 		display: inline-block;	
 		width: 100%;
 	}
+
 	.nav-item{
-		padding: 5px 0;
+		/*padding: 5px;*/
+		padding: 0;
 		margin: 0;
 		width: 100%;
 		border: 1px solid darkblue;
-		font-size: smaller;
-		box-sizing: content-box;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
 
+	.hidden-division{
+		display: none;
 	}
 
 	.section-box{
