@@ -302,6 +302,18 @@ ul > a{
 		font-size: smaller;
 	}
 
+	/*aside{
+		position: relative;
+	}
+*/
+
+	main, .hidden-division{
+		float: none;
+	}
+
+	.hidden-division{
+		height: 200px;
+	}
 	nav{
 		display: inline-block;
 		position: absolute;
@@ -339,12 +351,10 @@ ul > a{
 		margin-right: 2px;
 	}
 
-	.hidden-division{
-		display: none;
-	}
-
 	.section-box{
 		max-height: 450px;
+		float: none;
+		position: relative;
 	}
 
 	.home-header{
